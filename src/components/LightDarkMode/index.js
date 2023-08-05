@@ -9,8 +9,8 @@ class LightDarkMode extends Component {
     return (
       <div>
         <h1> Click To change Mode </h1>
-        ((isDarkMode)?<button type="button">Dark Mode</button>:
-        <button type="button">Light Mode</button>))
+        {isDarkMode?<button type="button">Dark Mode</button>:
+        <button type="button">Light Mode</button>}
       </div>
     )
   }
